@@ -1,9 +1,34 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "bills": [
+    {
+      "id": 1,
+      "name": "Rent",
+      "amount": 200
+    },
+    {
+      "id": 2,
+      "name": "Electricity",
+      "amount": 100
+    },
+    {
+      "id": 3,
+      "name": "Shopping",
+      "amount": 500
+    },
+    {
+      "id": 4,
+      "name": "Salon",
+      "amount": 1000
+    },
+    {
+      "id": 5,
+      "name": "Water",
+      "amount": 700
+    },
+    {
+      "name": "library",
+      "amount": "900",
+      "id": 6
+    }
+  ]
 }
